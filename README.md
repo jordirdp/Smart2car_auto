@@ -3,7 +3,7 @@
 
 Autor: Jordi Rodriguez  
 Practica de programación de motores con IDE Arduino  
-Seguidor de línea sencillo
+Seguidor de línea sencillo  
 
 
 *** Material utilizado ***
