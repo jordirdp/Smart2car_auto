@@ -17,6 +17,7 @@ Seguidor de línea sencillo
 - Led rojo + R220Ω (2x)
 - Buzzer activo + R100Ω  
 - L298N = Controlador de motores
+- Motores Arduino (2x)
   
 
 *** Pines de conexion ***
