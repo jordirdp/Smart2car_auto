@@ -9,8 +9,6 @@ const int Velocidad = 150;    // Velocidad máxima para motores
 
 int Sensor_left = 0;
 int Sensor_right = 0;
-int Sensor_left_old = 0;
-int Sensor_right_old = 0;
 
 int Sensor_front = 0;
 
