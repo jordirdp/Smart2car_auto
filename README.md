@@ -3,7 +3,7 @@
 
 Autor: Jordi Rodriguez  
 Practica de programación de sensores y motores con IDE Arduino  
-Seguidor de línea sencillo  
+Robot sobre mesa  
 
 
 *** Material utilizado ***
