@@ -12,75 +12,75 @@ void Motores_init(){
 }
 
 void Para (int tiempo){
-  digitalWrite (ENA, 0);
+  analogWrite (ENA, 0);
   digitalWrite (IN1, LOW);
   digitalWrite (IN2, LOW);
-  digitalWrite (ENB, 0);
+  analogWrite (ENB, 0);
   digitalWrite (IN3, LOW);
   digitalWrite (IN4, LOW);
   delay (tiempo);
 }
 
 void Stop (){
-  digitalWrite (ENA, 0);
+  analogWrite (ENA, 0);
   digitalWrite (IN1, LOW);
   digitalWrite (IN2, LOW);
-  digitalWrite (ENB, 0);
+  analogWrite (ENB, 0);
   digitalWrite (IN3, LOW);
   digitalWrite (IN4, LOW);
 }
 
 void Avanza(){
-  digitalWrite (ENA, Velocidad);
+  analogWrite (ENA, Velocidad);
   digitalWrite (IN1, LOW);
   digitalWrite (IN2, HIGH);
-  digitalWrite (ENB, Velocidad);
+  analogWrite (ENB, Velocidad);
   digitalWrite (IN3, LOW);
   digitalWrite (IN4, HIGH);
 }
 
 void Retrocede(){
-  digitalWrite (ENA, Velocidad/2);
+  analogWrite (ENA, Velocidad/2);
   digitalWrite (IN1, HIGH);
   digitalWrite (IN2, LOW);
-  digitalWrite (ENB, Velocidad/2);
+  analogWrite (ENB, Velocidad/2);
   digitalWrite (IN3, HIGH);
   digitalWrite (IN4, LOW);
   Buzzer (1, 100, 100);
 }
 
 void Izquierda(){
-  digitalWrite (ENA, Velocidad);
+  analogWrite (ENA, Velocidad);
   digitalWrite (IN1, LOW);
   digitalWrite (IN2, HIGH);
-  digitalWrite (ENB, 0);
+  analogWrite (ENB, 0);
   digitalWrite (IN3, HIGH);
   digitalWrite (IN4, LOW);
 }
 
 void Derecha(){
-  digitalWrite (ENA, Velocidad);
+  analogWrite (ENA, Velocidad);
   digitalWrite (IN1, HIGH);
   digitalWrite (IN2, LOW);
-  digitalWrite (ENB, 0);
+  analogWrite (ENB, 0);
   digitalWrite (IN3, LOW);
   digitalWrite (IN4, HIGH);
 }
 
 void Gira_izquierda(){
-  digitalWrite (ENA, Velocidad/2);
+  analogWrite (ENA, Velocidad/2);
   digitalWrite (IN1, LOW);
   digitalWrite (IN2, HIGH);
-  digitalWrite (ENB, Velocidad/2);
+  analogWrite (ENB, Velocidad/2);
   digitalWrite (IN3, HIGH);
   digitalWrite (IN4, LOW);
 }
 
 void Gira_derecha(){
-  digitalWrite (ENA, Velocidad/2);
+  analogWrite (ENA, Velocidad/2);
   digitalWrite (IN1, HIGH);
   digitalWrite (IN2, LOW);
-  digitalWrite (ENB, Velocidad/2);
+  analogWrite (ENB, Velocidad/2);
   digitalWrite (IN3, LOW);
   digitalWrite (IN4, HIGH);
 }
