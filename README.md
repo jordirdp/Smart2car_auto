@@ -1,26 +1,36 @@
 # Smart2car_auto
- Funciones automaticas
 
-Autor: Jordi Rodriguez  
-Practica de programación de sensores y motores con IDE Arduino  
-Robot 2 ruedas  
+Autor: Jordi Rodríguez  
+Práctica de programación ordenada en Arduino utilizando pestañas   
+Crearemos un vehículo de 2 ruedas con el material especificado  
+Para la programación usaremos la plataforma Arduino IDE:  
+
+https://www.arduino.cc/en/software
+
+Este código realiza las siguientes funciones simples:  
+- Lectura de sensores de línea  
+- Medición de distancia de obstáculo  
+- Medición de luminosidad ambiente  
+- Actúa sobre motores y luces según los datos recibidos  
+  
+![Imagen Smart2car acabado](Smart2car_final.jpeg)  
 
 
-*** Material utilizado ***
+## Material utilizado
 
 - Arduino Shield Sensor v.5.0
 - HC-SR04 = Sensor ultrasonido de distancia
 - TCRT5000 = Sensor infrarrojo de proximidad (2x)
 - LM393 = Sensor fotolumínico
 - LCD I2C = Pantalla lcd
-- Led blanco + R100Ω (2x)
-- Led rojo + R220Ω (2x)
-- Buzzer activo + R100Ω  
+- Led blanco + R100Ω (2x)
+- Led rojo + R220Ω (2x)
+- Buzzer activo + R100Ω  
 - L298N = Controlador de motores
 - Motores Arduino (2x)
   
 
-*** Pines de conexion ***
+## Pines de conexion
 
 A0 = Sensor ultrasonido-Echo (HC-SR04)  
 A1 = Sensor ultrasonido-Trigger (HC-SR04)  
