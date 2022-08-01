@@ -3,7 +3,7 @@
 
 Autor: Jordi Rodriguez  
 Practica de programación de sensores y motores con IDE Arduino  
-Robot sobre mesa  
+Robot 2 ruedas  
 
 
 *** Material utilizado ***
