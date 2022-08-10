@@ -2,26 +2,33 @@
 /* Project: Smart2car */
 /* Author: Jordi Rodriguez */
 
+// Incluye Headers
 #include "Pinout.h"
 #include "Constants.h"
 
+// Define ultrasonidos HC-SR04
 #include <NewPing.h>
 NewPing sonar (TRIGGER_PIN, ECHO_PIN);
 
+// Define LCD
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd (0x27, 20, 4);
+LiquidCrystal_I2C lcd (0x27, 16, 2);
 
 
 void setup() {
-  lcd.init();
+
+  // Inicia LCD
+  lcd.begin();
   lcd.clear();
   lcd.setCursor (0,0);
   lcd.print("****Smart2car****");
   
+  // Inicia Buzzer
   Buzzer_init();
   Buzzer(2,100,100);
 
+  // Inicia Leds
   Led_init(WHITE_R);
   Led_init(WHITE_L);
   Led_init(RED_R);
@@ -30,9 +37,11 @@ void setup() {
     Led_wheel();
   }
 
+  // Configura sensores de línea
   pinMode(SENSOR_L, INPUT);
   pinMode(SENSOR_R, INPUT);
 
+  // Inicia Motores
   Motores_init();
 
   lcd.clear();
