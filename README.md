@@ -1,7 +1,7 @@
 # Smart2car_auto
 🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp)  
 
-👨🏻‍💻Práctica de **programación ordenada** utilizando pestañas en Arduino  
+👨🏻‍💻Práctica de **programación modular** utilizando pestañas en Arduino  
     
 ### Software  
 - Programado con [Arduino](https://www.arduino.cc/en/software)
