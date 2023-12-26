@@ -16,16 +16,16 @@
 
 ### Hardware  
 - Arduino UNO  
-- Arduino Shield Sensor v.5.0
-- HC-SR04 = Sensor ultrasonido de distancia
-- TCRT5000 = Sensor infrarrojo de proximidad (2x)
-- LM393 = Sensor fotolumínico
-- LCD I2C = Pantalla lcd
-- Led blanco + R100Ω (2x)
-- Led rojo + R220Ω (2x)
+- Arduino Shield Sensor v.5.0  
+- HC-SR04 = Sensor ultrasonido de distancia  
+- TCRT5000 = Sensor infrarrojo de proximidad (2x)  
+- LM393 = Sensor fotolumínico  
+- LCD I2C = Pantalla lcd  
+- Led blanco + R100Ω (2x)  
+- Led rojo + R220Ω (2x)  
 - Buzzer activo + R100Ω  
-- L298N = Controlador de motores
-- Motores Arduino (2x)
+- L298N = Controlador de motores  
+- Motores Arduino (2x)  
 
 ### Montaje  
 <img src="/Images/Smart2car_final.jpeg" width="300"/>   
