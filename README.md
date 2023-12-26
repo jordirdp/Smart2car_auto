@@ -28,7 +28,8 @@
 - Motores Arduino (2x)  
 
 ### Montaje  
-<img src="/Images/Smart2car_final.jpeg" width="300"/>   
+<img src="/Images/Smart2car_final.jpeg" width="300"/>  
+
 Conexiones a pines Arduino UNO:  
 - A00 = Sensor ultrasonido-Echo (HC-SR04)  
 - A01 = Sensor ultrasonido-Trigger (HC-SR04)  
